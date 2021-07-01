@@ -136,7 +136,7 @@
        
 <h2 itemprop="name">
   <a class="article-title" href="/2021/07/01/archlinx-wechat/"
-    >archlinx安装deepin-wine-wechat的问题</a> 
+    >archlinx安装deepin-wine-wechat的问题(xfce4桌面)</a> 
 </h2>
  
 
@@ -152,7 +152,7 @@
     <div class="article-entry" itemprop="articleBody">
        
   <h2 id="Q1-deepin-wechat使用快捷键的方式"><a href="#Q1-deepin-wechat使用快捷键的方式" class="headerlink" title="Q1.deepin-wechat使用快捷键的方式"></a>Q1.deepin-wechat使用快捷键的方式</h2><ol>
-<li>安装 xdotool工具</li>
+<li>安装 xdotool工具<br><code>yay -S xdotool</code></li>
 <li>编写脚本<br><code>#!/bin/sh</code><br><code>xdotool key --window $(xdotool search --limit 1 --all --pid $(pgrep WeChat.exe)) &quot;alt+Z&quot;</code> 
       <a class="article-more-link" href="/2021/07/01/archlinx-wechat/"
         >阅读更多...</a
