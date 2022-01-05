@@ -1,551 +1,421 @@
 <!DOCTYPE html>
-
-
 <html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" integrity="sha256-2H3fkXt6FEmrReK448mDVGKb3WW2ZZw35gI7vqHOE4Y=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"xxxxxxxxxl.github.io","root":"/","images":"/images","scheme":"Pisces","version":"8.5.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+<meta name="description" content="我已经没兴趣给别人留下好印象了">
+<meta property="og:type" content="website">
+<meta property="og:title" content="X_xl">
+<meta property="og:url" content="http://xxxxxxxxxl.github.io/index.html">
+<meta property="og:site_name" content="X_xl">
+<meta property="og:description" content="我已经没兴趣给别人留下好印象了">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="xxl">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://xxxxxxxxxl.github.io/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>X_xl</title>
   
 
-    <head>
-      <meta charset="utf-8" />
-        
-      <meta name="description" content="我已经没兴趣给别人留下好印象了" />
-      
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1"
-      />
-      <title> X_xl</title>
-  <meta name="generator" content="hexo-theme-ayer">
-      
-      <link rel="shortcut icon" href="/favicon-16x16-next.png" />
-       
-<link rel="stylesheet" href="/dist/main.css">
-
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/css/remixicon.min.css"
-      />
-      
-<link rel="stylesheet" href="/css/custom.css">
- 
-      <script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
-       
- 
-
-      <!-- mermaid -->
-      
-    </head>
-  </html>
-</html>
-
-
-<body>
-  <div id="app">
-    
-      
-    <main class="content on">
-      
 
 
 
-<!-- Subtitle -->
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
 
-<div id="main">
-  <section class="outer">
-  
-  
-  <article class="articles">
-    
-    
-    
-    
-    <article
-  id="post-archlinx-wechat"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2021/07/01/archlinx-wechat/"
-    >archlinx安装deepin-wine-wechat的问题(xfce4桌面)</a> 
-</h2>
- 
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
 
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2021/07/01/archlinx-wechat/" class="article-date">
-  <time datetime="2021-07-01T09:40:29.000Z" itemprop="datePublished">2021-07-01</time>
-</a>    
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
     </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <h2 id="Q1-deepin-wechat使用快捷键的方式"><a href="#Q1-deepin-wechat使用快捷键的方式" class="headerlink" title="Q1.deepin-wechat使用快捷键的方式"></a>Q1.deepin-wechat使用快捷键的方式</h2><ol>
-<li>安装 xdotool工具<br><code>yay -S xdotool</code></li>
-<li>编写脚本<br><code>#!/bin/sh</code><br><code>xdotool key --window $(xdotool search --limit 1 --all --pid $(pgrep WeChat.exe)) &quot;alt+Z&quot;</code> 
-      <a class="article-more-link" href="/2021/07/01/archlinx-wechat/"
-        >more</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-    </footer>
   </div>
 
-    
- 
-    
-</article>
+  <div class="site-meta">
 
-    
-    <article
-  id="post-Ronald-Reagan"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2021/06/17/Ronald-Reagan/"
-    >Ronald Reagan: The Space Shuttle &#34;Challenger&#34; Tragedy Address delivered 28 January 1986</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2021/06/17/Ronald-Reagan/" class="article-date">
-  <time datetime="2021-06-17T06:05:58.000Z" itemprop="datePublished">2021-06-17</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>Ladies and Gentlemen, I’d planned to speak to you tonight to report on the state of the Union, but the events of earlier today have led me to change those plans. Today is a day for mourning and remembering. Nancy and I are pained to the core by the tragedy of the shuttle Challenger. We know we share this pain with all of the people of our country. This is truly a national loss.<br>Nineteen years ago, almost to the day, we lost three astronauts in a terrible accident on the ground. But, we’ve never lost an astronaut in flight. We’ve never had a tragedy like this. And perhaps we’ve forgotten the courage it took for the crew of the shuttle. But they, the Challenger Seven, were aware of the dangers, but overcame them and did their jobs brilliantly. We mourn seven heroes: Michael Smith, Dick Scobee, Judith Resnik, Ronald McNair, Ellison Onizuka, Gregory Jarvis, and Christa McAuliffe. We mourn their loss as a nation together.</p> 
-      <a class="article-more-link" href="/2021/06/17/Ronald-Reagan/"
-        >more</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-    </footer>
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">X_xl</h1>
+      <i class="logo-line"></i>
+    </a>
   </div>
 
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-父亲坐在黑暗中"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2021/06/17/%E7%88%B6%E4%BA%B2%E5%9D%90%E5%9C%A8%E9%BB%91%E6%9A%97%E4%B8%AD/"
-    >父亲坐在黑暗中</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2021/06/17/%E7%88%B6%E4%BA%B2%E5%9D%90%E5%9C%A8%E9%BB%91%E6%9A%97%E4%B8%AD/" class="article-date">
-  <time datetime="2021-06-17T05:46:56.000Z" itemprop="datePublished">2021-06-17</time>
-</a>    
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
     </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>文/杰罗姆·魏德曼，译/乔向东</p>
-<p>父亲有个独特的习惯。他喜欢独自一个人在黑暗中静静地坐着，有时我回家很晚，整幢房子一片漆黑。我轻轻地进了门，因为我不想吵醒我的母亲，她很容易惊醒。我踮着脚尖，走进自己的房间，在黑暗中脱下外衣。然后到厨房去喝水，我光着脚，没有一点响声。我走进厨房去，几乎撞着了父亲，他穿着睡衣，吸着烟斗，正坐在一把椅子上。<br>“哈啰，爸爸。”我说。<br>“哈啰，儿子。”<br>“你为什么还不睡觉，爸爸？”<br>“就去。”他说。<br>但是他仍待在那儿，我敢肯定，我睡着后很久，他仍然坐在那儿，吸着烟斗。<br>好些次，我在房间里读书，听见母亲收拾房间准备晚上睡觉，听见弟弟爬上床。听见姐姐走进房间，听见她梳理时的瓶子梳子的响声。我继续读书，不久就觉得渴了（我要喝很多水），就到厨房里去找水喝。我已经忘了父亲，然而他却还在那儿坐着，吸烟，沉思。<br>“你为什么还不睡觉，爸爸？”</p> 
-      <a class="article-more-link" href="/2021/06/17/%E7%88%B6%E4%BA%B2%E5%9D%90%E5%9C%A8%E9%BB%91%E6%9A%97%E4%B8%AD/"
-        >more</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-    </footer>
   </div>
-
-    
- 
-    
-</article>
-
-    
-  </article>
-  
-
-  
-</section>
 </div>
 
-      <footer class="footer">
-  <div class="outer">
-    <ul>
-      <li>
-        Copyrights &copy;
-        2020-2021
-        <!-- <i class="ri-heart-fill heart_icon"></i> --> xxl
-      </li>
-    </ul>
-    <ul>
-<!--  <li>
+
+
+
+
+
+
+</div>
         
-        
-        
-        由 <a href="https://hexo.io" target="_blank">Hexo</a> 强力驱动
-        <span class="division">|</span>
-        主题 - <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
-        
-      </li>
--->
-    </ul>
-    <ul>
-      <li>
-        
-        
-        <span>
-  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></span>
-  <span class="division">|</span>
-  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
-</span>
-        
-      </li>
-    </ul>
-    <ul>
-      
-    </ul>
-    <ul>
-      
-    </ul>
-    <ul>
-      <li>
-        <!-- cnzz统计 -->
-        
-      </li>
-    </ul>
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
   </div>
-</footer>
 
-      <div class="float_btns">
-        <div class="totop" id="totop">
-  <i class="ri-arrow-up-line"></i>
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-overview">
+            <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">xxl</p>
+  <div class="site-description" itemprop="description">我已经没兴趣给别人留下好印象了</div>
 </div>
-
-<div class="todark" id="todark">
-  <i class="ri-moon-line"></i>
-</div>
-
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
       </div>
-    </main>
-    <aside class="sidebar on">
-      <button class="navbar-toggle"></button>
-<nav class="navbar">
-  
-  <div class="logo">
-    <a href="/"><img src="/images/logo.svg" alt="X_xl"></a>
-  </div>
-  
-  <ul class="nav nav-main">
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/">主页</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/archives">归档</a>
-    </li>
-    
-  </ul>
-</nav>
-<nav class="navbar navbar-bottom">
-  <ul class="nav">
-    <li class="nav-item">
-      
-      <a class="nav-item-link nav-item-search"  title="搜索">
-        <i class="ri-search-line"></i>
-      </a>
-      
-      
-    </li>
-  </ul>
-</nav>
-<div class="search-form-wrap">
-  <div class="local-search local-search-plugin">
-  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
-  <div id="local-search-result" class="local-search-result"></div>
+  </nav>
 </div>
-</div>
-    </aside>
-    <div id="mask"></div>
 
-<!-- #reward -->
-<div id="reward">
-  <span class="close"><i class="ri-close-line"></i></span>
-  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
-  <div class="reward-box">
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/alipay.png">
-      <span class="reward-type">支付宝</span>
-    </div>
-    
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/wechat.png">
-      <span class="reward-type">微信</span>
-    </div>
-    
-  </div>
-</div>
-    
-<script src="/js/jquery-2.0.3.min.js"></script>
- 
-<script src="/js/lazyload.min.js"></script>
 
-<!-- Tocbot -->
 
-<script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css"
-/>
-<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js"></script>
-
-<script src="/dist/main.js"></script>
-
-<!-- ImageViewer -->
- <!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
+          </div>
         </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
 
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
 
-            <div class="pswp__top-bar">
+    </header>
 
-                <!--  Controls are self-explanatory. Order can be changed. -->
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
 
-                <div class="pswp__counter"></div>
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
 
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 
-                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+    <div class="main-inner index posts-expand">
 
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+    
 
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div class="post-block">
+  
+  
 
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://xxxxxxxxxl.github.io/2021/07/01/archlinx-wechat/">
 
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="xxl">
+      <meta itemprop="description" content="我已经没兴趣给别人留下好印象了">
+    </span>
 
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="X_xl">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/07/01/archlinx-wechat/" class="post-title-link" itemprop="url">archlinx安装deepin-wine-wechat的问题(xfce4桌面)</a>
+        </h2>
 
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-07-01 17:40:29 / 修改时间：19:11:26" itemprop="dateCreated datePublished" datetime="2021-07-01T17:40:29+08:00">2021-07-01</time>
+    </span>
+
+  
+</div>
 
         </div>
+      </header>
 
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="Q1-deepin-wechat使用快捷键的方式"><a href="#Q1-deepin-wechat使用快捷键的方式" class="headerlink" title="Q1.deepin-wechat使用快捷键的方式"></a>Q1.deepin-wechat使用快捷键的方式</h2><ol>
+<li>安装 xdotool工具<br><code>yay -S xdotool</code></li>
+<li>编写脚本<br><code>#!/bin/sh</code><br><code>xdotool key --window $(xdotool search --limit 1 --all --pid $(pgrep WeChat.exe)) &quot;alt+Z&quot;</code>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/07/01/archlinx-wechat/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
     </div>
 
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
 </div>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css">
-<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
 
-<script>
-    function viewer_init() {
-        let pswpElement = document.querySelectorAll('.pswp')[0];
-        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
-
-        $imgArr.forEach(($em, i) => {
-            $em.onclick = () => {
-                // slider展开状态
-                // todo: 这样不好，后面改成状态
-                if (document.querySelector('.left-col.show')) return
-                let items = []
-                $imgArr.forEach(($em2, i2) => {
-                    let img = $em2.getAttribute('data-idx', i2)
-                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
-                    let title = $em2.getAttribute('alt')
-                    // 获得原图尺寸
-                    const image = new Image()
-                    image.src = src
-                    items.push({
-                        src: src,
-                        w: image.width || $em2.width,
-                        h: image.height || $em2.height,
-                        title: title
-                    })
-                })
-                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
-                    index: parseInt(i)
-                });
-                gallery.init()
-            }
-        })
-    }
-    viewer_init()
-</script> 
-<!-- MathJax -->
-
-<!-- Katex -->
-
-<!-- busuanzi  -->
- 
-<script src="/js/busuanzi-2.3.pure.min.js"></script>
- 
-<!-- ClickLove -->
-
-<!-- ClickBoom1 -->
-
-<!-- ClickBoom2 -->
-
-<!-- CodeCopy -->
- 
-<link rel="stylesheet" href="/css/clipboard.css">
- <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
-<script>
-  function wait(callback, seconds) {
-    var timelag = null;
-    timelag = window.setTimeout(callback, seconds);
-  }
-  !function (e, t, a) {
-    var initCopyCode = function(){
-      var copyHtml = '';
-      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
-      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
-      copyHtml += '</button>';
-      $(".highlight .code pre").before(copyHtml);
-      $(".article pre code").before(copyHtml);
-      var clipboard = new ClipboardJS('.btn-copy', {
-        target: function(trigger) {
-          return trigger.nextElementSibling;
-        }
-      });
-      clipboard.on('success', function(e) {
-        let $btn = $(e.trigger);
-        $btn.addClass('copied');
-        let $icon = $($btn.find('i'));
-        $icon.removeClass('ri-file-copy-2-line');
-        $icon.addClass('ri-checkbox-circle-line');
-        let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPIED';
-        
-        wait(function () { // 等待两秒钟后恢复
-          $icon.removeClass('ri-checkbox-circle-line');
-          $icon.addClass('ri-file-copy-2-line');
-          $span[0].innerText = 'COPY';
-        }, 2000);
-      });
-      clipboard.on('error', function(e) {
-        e.clearSelection();
-        let $btn = $(e.trigger);
-        $btn.addClass('copy-failed');
-        let $icon = $($btn.find('i'));
-        $icon.removeClass('ri-file-copy-2-line');
-        $icon.addClass('ri-time-line');
-        let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPY FAILED';
-        
-        wait(function () { // 等待两秒钟后恢复
-          $icon.removeClass('ri-time-line');
-          $icon.addClass('ri-file-copy-2-line');
-          $span[0].innerText = 'COPY';
-        }, 2000);
-      });
-    }
-    initCopyCode();
-  }(window, document);
-</script>
- 
-<!-- CanvasBackground -->
-
-<script>
-  if (window.mermaid) {
-    mermaid.initialize({ theme: "forest" });
-  }
-</script>
 
 
     
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://xxxxxxxxxl.github.io/2021/06/17/Ronald-Reagan/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="xxl">
+      <meta itemprop="description" content="我已经没兴趣给别人留下好印象了">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="X_xl">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/06/17/Ronald-Reagan/" class="post-title-link" itemprop="url">Ronald Reagan: The Space Shuttle "Challenger" Tragedy Address delivered 28 January 1986</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-06-17 14:05:58" itemprop="dateCreated datePublished" datetime="2021-06-17T14:05:58+08:00">2021-06-17</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-07-01 19:11:39" itemprop="dateModified" datetime="2021-07-01T19:11:39+08:00">2021-07-01</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>Ladies and Gentlemen, I’d planned to speak to you tonight to report on the state of the Union, but the events of earlier today have led me to change those plans. Today is a day for mourning and remembering. Nancy and I are pained to the core by the tragedy of the shuttle Challenger. We know we share this pain with all of the people of our country. This is truly a national loss.<br>Nineteen years ago, almost to the day, we lost three astronauts in a terrible accident on the ground. But, we’ve never lost an astronaut in flight. We’ve never had a tragedy like this. And perhaps we’ve forgotten the courage it took for the crew of the shuttle. But they, the Challenger Seven, were aware of the dangers, but overcame them and did their jobs brilliantly. We mourn seven heroes: Michael Smith, Dick Scobee, Judith Resnik, Ronald McNair, Ellison Onizuka, Gregory Jarvis, and Christa McAuliffe. We mourn their loss as a nation together.</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/06/17/Ronald-Reagan/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://xxxxxxxxxl.github.io/2021/06/17/%E7%88%B6%E4%BA%B2%E5%9D%90%E5%9C%A8%E9%BB%91%E6%9A%97%E4%B8%AD/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="xxl">
+      <meta itemprop="description" content="我已经没兴趣给别人留下好印象了">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="X_xl">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/06/17/%E7%88%B6%E4%BA%B2%E5%9D%90%E5%9C%A8%E9%BB%91%E6%9A%97%E4%B8%AD/" class="post-title-link" itemprop="url">父亲坐在黑暗中</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-06-17 13:46:56" itemprop="dateCreated datePublished" datetime="2021-06-17T13:46:56+08:00">2021-06-17</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-07-01 19:11:12" itemprop="dateModified" datetime="2021-07-01T19:11:12+08:00">2021-07-01</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>文/杰罗姆·魏德曼，译/乔向东</p>
+<p>父亲有个独特的习惯。他喜欢独自一个人在黑暗中静静地坐着，有时我回家很晚，整幢房子一片漆黑。我轻轻地进了门，因为我不想吵醒我的母亲，她很容易惊醒。我踮着脚尖，走进自己的房间，在黑暗中脱下外衣。然后到厨房去喝水，我光着脚，没有一点响声。我走进厨房去，几乎撞着了父亲，他穿着睡衣，吸着烟斗，正坐在一把椅子上。<br>“哈啰，爸爸。”我说。<br>“哈啰，儿子。”<br>“你为什么还不睡觉，爸爸？”<br>“就去。”他说。<br>但是他仍待在那儿，我敢肯定，我睡着后很久，他仍然坐在那儿，吸着烟斗。<br>好些次，我在房间里读书，听见母亲收拾房间准备晚上睡觉，听见弟弟爬上床。听见姐姐走进房间，听见她梳理时的瓶子梳子的响声。我继续读书，不久就觉得渴了（我要喝很多水），就到厨房里去找水喝。我已经忘了父亲，然而他却还在那儿坐着，吸烟，沉思。<br>“你为什么还不睡觉，爸爸？”</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/06/17/%E7%88%B6%E4%BA%B2%E5%9D%90%E5%9C%A8%E9%BB%91%E6%9A%97%E4%B8%AD/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">xxl</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
   </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+  
+
+
+
+
+
 </body>
-
 </html>
